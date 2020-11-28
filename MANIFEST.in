@@ -1,0 +1,8 @@
+include LICENSE
+include README.md
+include CHANGELOG
+recursive-include signal_notification *
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+
